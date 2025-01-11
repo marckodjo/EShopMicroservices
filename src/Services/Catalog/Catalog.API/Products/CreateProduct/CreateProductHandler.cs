@@ -1,6 +1,4 @@
-﻿
-
-namespace Catalog.API.Products.CreateProduct;
+﻿namespace Catalog.API.Products.CreateProduct;
 
 public record CreateProductCommand(string Name, 
                                     List<string> 

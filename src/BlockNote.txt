@@ -3,3 +3,6 @@
 local env => 5000-5050
 Docker env => 6001-6061
 Docker Inside => 8080-8061
+
+
+Add-Migration InitialCreate -OutputDir Data/Migrations -Project Ordering.Infrastructure -StartupProject Ordering.API
